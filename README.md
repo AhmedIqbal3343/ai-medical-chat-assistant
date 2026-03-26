@@ -70,4 +70,40 @@ This project aims to bridge that gap by providing:
 ---
 
 ## 📂 Project Structure
+medchain-ai-chatbot/
+│
+├── app.py # Flask backend API
+├── .env # API keys (not included)
+├── requirements.txt # Dependencies
+├── templates/
+│ └── index.html # Frontend UI
+│
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/your-username/medchain-ai-chatbot.git
+cd medchain-ai-chatbot
+
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+2) Setup Environment Variables
+
+Create .env file:
+
+OPENROUTER_API_KEY=your_api_key_here
+
+▶️ Run the Application
+python app.py
+
+Server will start at:
+
+http://localhost:5000
 
